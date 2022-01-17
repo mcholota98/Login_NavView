@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@id/main_menu"
+            android:title="Menú Principal"
+            android:icon="@drawable/top_menu_50px"/>
+
+
+        <item android:id="@+id/manage_users"
+              android:title="Gestionar Usuarios"
+              android:icon="@drawable/manage_users_32px"/>
+
+        <item android:id="@id/general_settings"
+              android:title="Ajustes Generales"
+              android:icon="@drawable/settings_30px"/>
+
+        <item
+            android:id="@+id/new_release"
+            android:title="Nueva Publicación"
+            android:icon="@drawable/new_publication_30px"/>
+
+        <item
+            android:id="@+id/my_posts"
+            android:title="Mis Publicaciones"
+            android:icon="@drawable/summary_list_30px"/>
+
+        <item
+            android:id="@+id/favorites"
+            android:title="Favoritos"
+            android:icon="@drawable/favorites_26px"/>
+
+        <item
+            android:id="@+id/shop"
+            android:title="Tienda"
+            android:icon="@drawable/shopping_cart_24px"/>
+
+    </group>
+</menu>
